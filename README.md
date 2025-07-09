@@ -1,12 +1,12 @@
-# Uber-Demand-Supply-Analysis
+## Uber-Demand-Supply-Analysis
 
-## 📌 Project Overview
+### 📌 Project Overview
 
 This project analyzes ride request data from Uber with the goal of identifying operational bottlenecks and improving service performance. The dataset captures user trip requests over a short time window, including timestamps, pickup points, and final trip statuses (Completed, Cancelled, or No Cars Available).
 
 ---
 
-## 🎯 Problem Statement & Business Objective
+### 🎯 Problem Statement & Business Objective
 
 Despite strong demand, Uber often fails to meet customer expectations due to trip cancellations and unavailability of drivers—especially during peak hours and at specific pickup points.
 
@@ -17,7 +17,7 @@ Despite strong demand, Uber often fails to meet customer expectations due to tri
 
 ---
 
-## 🧰 Tools & Technologies Used
+### 🧰 Tools & Technologies Used
 
 | Tool | Purpose |
 |------|---------|
@@ -28,7 +28,7 @@ Despite strong demand, Uber often fails to meet customer expectations due to tri
 
 ---
 
-## 🧪 Exploratory Data Analysis (EDA)
+### 🧪 Exploratory Data Analysis (EDA)
 
 - Checked for **null values**, duplicates, and inconsistent timestamp formats
 - Converted string dates to `datetime` format and extracted **hourly bins**
@@ -36,7 +36,7 @@ Despite strong demand, Uber often fails to meet customer expectations due to tri
 
 ---
 
-## 📊 Key Visualizations
+### 📊 Key Visualizations
 
 1. **Pie Chart**: Distribution of overall trip statuses  
 2. **Bar Chart**: Trip counts by Pickup Location (City vs Airport)  
@@ -49,7 +49,7 @@ Despite strong demand, Uber often fails to meet customer expectations due to tri
 
 ---
 
-## 🔍 Key Insights
+### 🔍 Key Insights
 
 - **City dominates ride requests**, especially between **5 AM to 9 AM**, while **Airport demand spikes from 5 PM to 9 PM**.
 - The **Airport consistently faces service issues**, mainly "No Cars Available".
@@ -58,7 +58,7 @@ Despite strong demand, Uber often fails to meet customer expectations due to tri
 
 ---
 
-## 💼 Business Impact
+### 💼 Business Impact
 
 - The analysis can help Uber **realign driver distribution**, especially for underserved Airport zones.
 - Enables **data-driven scheduling** and **dynamic pricing** based on demand patterns.
